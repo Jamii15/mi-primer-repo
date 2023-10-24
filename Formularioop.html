@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>One Piece</title>
+    <style>
+        body {
+            background-color: #C1C3E4;
+            font-family: Helvetica, sans-serif;
+        }
+        h1 {
+            color: #000738;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 8px;
+        }
+        th, td {
+            border: 1px solid #387B5C;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #6BC198;
+            color: #fff;
+        }
+        input[type="text"], select {
+            width: 75%;
+            padding: 8px;
+            margin: 5px 0;
+            border: 1px solid #DBDBDB;
+            border-radius: 3px;
+        }
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+        button {
+            background-color: #0022FF;
+            color: #fff;
+            padding: 8px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #8286A0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario de One Piece</h1>
+<div>
+        <form>
+            <label for="nombre">Nombre del personaje:</label>
+<br>
+            <input type="text" id="nombre" name="nombre" placeholder="Ej. Monkey D. Luffy" required>
+<br>
+            <label for="fruta">Fruta del Diablo:</label>
+<br>
+            <select id="fruta" name="fruta">
+                <option value="gomu-gomu">Elige</option>
+                <option value="gomu-gomu">Gomu Gomu no Mi</option>
+                <option value="mochi-mochi">Mochi Mochi no Mi</option>
+                <option value="nikyu-nikyu">Nikyu Nikyu no Mi</option>
+                <option value="nikyu-nikyu">No posee</option>
+            </select>
+
+            <p>¿Es un Pirata?</p>
+            <input type="radio" id="si" name="pirata" value="si">
+            <label for="si">Sí</label>
+            <input type="radio" id="no" name="pirata" value="no">
+            <label for="no">No</label>
+
+            <h2>Lista de Tripulantes</h2>
+            <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Rango</th>
+                </tr>
+                <tr>
+                    <td>Luffy</td>
+                    <td>Capitán</td>
+                </tr>
+                <tr>
+                    <td>Zoro</td>
+                    <td>Espadachín</td>
+                </tr>
+                <tr>
+                    <td>Nami</td>
+                    <td>Navegante</td>
+                </tr>
+                <tr>
+                    <td>Sanji</td>
+                    <td>Cocinero</td>
+                </tr>
+                <tr>
+                    <td>Usopp</td>
+                    <td>Francotirador</td>
+                </tr>
+                <tr>
+                    <td>Chopper</td>
+                    <td>Doctor</td>
+                </tr>
+                <tr>
+                    <td>Robin</td>
+                    <td>Arqueologa</td>
+                </tr>
+                <tr>
+                    <td>Frankie</td>
+                    <td>Carpintero</td>
+                </tr>
+                <tr>
+                    <td>Brook</td>
+                    <td>Musico</td>
+                </tr>
+                <tr>
+                    <td>Jimbey</td>
+                    <td>Timonel</td>
+                </tr>
+
+            </table>
+<br>
+            <button type="submit">Enviar</button>
+        </form>
+</div>
+</body>
+</html>
